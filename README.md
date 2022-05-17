@@ -40,6 +40,14 @@
 ![pt2 4](https://user-images.githubusercontent.com/26192943/168743824-ae2e3af3-e428-44a6-b028-d4b21706aeed.png)
 
 
+  - Created Docker container
+![created docker](https://user-images.githubusercontent.com/26192943/168746790-6f55ad72-1403-444a-a6ae-536aea98f6f7.png)
+
+
+  - Used docker pull command but added "v2" to the command: docker pull pushpalpatil/spring-gumball:v2
+![docker-pull](https://user-images.githubusercontent.com/26192943/168747061-b32d1f8f-bc83-4c67-9b1c-d0945809c7ad.png)
+![docker-pull command worked](https://user-images.githubusercontent.com/26192943/168747698-2bf468c8-67f3-4e7a-afa9-2b59b499732f.png)
+
 
   - Faced an error with the ingress.yaml file because the API version in the file was not correct. Changed API version to networking.k8s.io/v1
 ![pt2 5 ingress error](https://user-images.githubusercontent.com/26192943/168745465-1fe4d3f7-a419-42df-9054-4679fb642162.png)
